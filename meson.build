@@ -37,10 +37,6 @@ plugins = {
     'ladspa': true
   }, 'single2humbucker': {
     'ladspa': true
-  }, 'tubeamp': {
-    'gui': true,
-    'lv2src': ['kpp_tubeamp.cpp'],
-    'libs': ['zita-convolver', 'zita-resampler']
   },
 }
 
